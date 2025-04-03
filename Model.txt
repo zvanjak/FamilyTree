@@ -1,0 +1,13 @@
+Person
+- personId
+- name - first, last, born
+- date of birth/death
+- list of families
+- list of kids
+
+Family
+- familyId
+- person Id1, Id2
+- date from/to
+- endedBecause { WIDOWED, DIVORCED }
+- list of kids (personIds)
