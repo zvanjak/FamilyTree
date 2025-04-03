@@ -1,14 +1,29 @@
 
-[
-  {
-    "id" : "SUK_vanjak_0001",
-    "first_name" : "Milan",
-    "last_name" : "Vanjak",
-    "date_of_birth" : "1900-01-01",
-    "place_of_birth" : "Vanjak",
-    "date_of_death" : "1980-01-01"
-  },
-  {
+{
+  "persons" : [
+    {
+      "id" : "SUK_vanjak_0001",
+      "first_name" : "Milan",
+      "last_name" : "Vanjak",
+      "date_of_birth" : "1900-01-01",
+      "place_of_birth" : "Vanjak",
+      "date_of_death" : "1980-01-01",
+      "families": ["F001"],
+      "kids": ["P003", "P004"]
+    },
+    {
 
-  }
-]
+    }
+  ],
+  "families": [
+    {
+      "familyId": "F001",
+      "personId1": "P001",
+      "personId2": "P002",
+      "dateFrom": "2000-06-15",
+      "dateTo": null,
+      "endedBecause": null,
+      "kids": ["P003", "P004"]
+    }
+  ]  
+}

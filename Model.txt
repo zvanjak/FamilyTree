@@ -2,8 +2,8 @@ Person
 - personId
 - name - first, last, born
 - date of birth/death
-- list of families
-- list of kids
+- list of families (familyIds)
+- list of kids (personIds)
 
 Family
 - familyId
@@ -11,3 +11,9 @@ Family
 - date from/to
 - endedBecause { WIDOWED, DIVORCED }
 - list of kids (personIds)
+
+USE CASES
+1. odabir prezimena i prikaz grafa
+2. moj otac/majka su ... daj mi 2./3. rođake
+3. moj djed/baba su ... daj mi 2./3. rođake
+4. moj pradjed/prababa su ....
